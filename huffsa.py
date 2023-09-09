@@ -2,8 +2,8 @@ import psycopg2
 
 # MERK: Må kjøres med Python 3
 
-user = 'erlendrm' # Sett inn ditt UiO-brukernavn ("_priv" blir lagt til under)
-pwd = 'aiGohk3pe6' # Sett inn passordet for _priv-brukeren du fikk i en mail
+user = '...' # Sett inn ditt UiO-brukernavn ("_priv" blir lagt til under)
+pwd = '...' # Sett inn passordet for _priv-brukeren du fikk i en mail
 
 connection = \
     "dbname='" + user + "' " +  \
